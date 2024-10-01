@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { MessageSquare, ThumbsUp, ThumbsDown, RotateCcw, Copy, Volume2 } from 'lucide-react';
-import { Alert, AlertDescription } from "@/components/ui/alert";
+import { Alert, AlertDescription } from "../components/ui/alert";
 
 export default function Chatbot() {
   const [messages, setMessages] = useState([
